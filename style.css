@@ -9,4 +9,6 @@ nav {
     border: 3px solid rgb(11, 11, 20);
     border-radius: 15px;
     background-color: rgb(234, 161, 4);
+    text-decoration: none;
+    color: black;
 }
