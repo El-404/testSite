@@ -5,21 +5,31 @@ background: linear-gradient(135deg, rgba(201, 125, 96, 1) 0%, rgba(242, 229, 215
 }
 nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
     padding: 10px 20px;
     border: 3px solid #262322;
-    border-radius: 15px;
     background: #FFBCB5;
+    /* border-radius: 0 0 10px 10px; */
     text-decoration: none;
     color: #262322;
+    position:fixed; 
+    width:100%;
+    top:0;
+    margin:0;
+    left:0;
+}
+nav button {
+  margin-right: 20px;
 }
 a {
   text-decoration: none;
   color: #262322;
   font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+  font-weight: bold;
+}
 
+h1 {
+  position: sticky;
 }
 
 button {
